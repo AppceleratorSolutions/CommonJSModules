@@ -76,7 +76,7 @@ function remoteScroll(params){
 		length = arr.length
 		
 		if(length ==0){
-			alert('There are no rImages available.')
+			alert('There are no remote images available.')
 		}
 		
 		for (var i = 0; i<length; i++){
@@ -129,7 +129,7 @@ function remoteScroll(params){
 	            scrollable.views = containers;
 	            if (isAndroid) {
 	                // now we can add the event listener again
-	                scrollable.addEventListener('scrolEndl', scrollListener);
+	                scrollable.addEventListener('scrollEnd', scrollListener);
 	            }
 	            // and now buffer load the view we reset
 	            loadView({view:containers[0], rImage:count});
