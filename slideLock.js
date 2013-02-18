@@ -24,6 +24,7 @@
     });
 */
 
+
 function slideLock(args){
     
     var lockView = args.view.obj;
