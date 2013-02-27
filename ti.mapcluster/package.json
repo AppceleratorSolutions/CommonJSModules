@@ -1,0 +1,9 @@
+{
+    "description": "Appcelerator Map Cluster",
+    "directories": {
+        "bin": "."
+    },
+    "main": "ti.mapcluster",
+    "name": "ti.mapcluster",
+    "version": "0.1.0"
+}

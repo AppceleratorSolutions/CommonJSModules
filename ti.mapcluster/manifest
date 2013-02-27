@@ -1,0 +1,16 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1.0
+description: Appcelerator Cloud Services
+author: Davide Cassenti
+license: MIT
+copyright: Copyright (c) 2011-2012 by Appcelerator,  Inc.
+
+
+# these should not be edited
+name: ti.mapcluster
+moduleid: ti.mapcluster
+platform: commonjs
+minsdk: 2.1.0
