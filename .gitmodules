@@ -1,0 +1,3 @@
+[submodule "ti.smart"]
+	path = ti.smart
+	url = https://github.com/alanleard/ti.smart.git
