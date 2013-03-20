@@ -60,13 +60,13 @@
 							lineNumber = e.substring(start, end + 1);
 					}
 				} else if (e.backtrace) {
+					Ti.API.info(e.backtrace);
 					var stack = e.backtrace.split("\n");
-					if (stack[3]) {
-						var e = stack[3];
-						var start = e.lastIndexOf('/');
+					var e = stack[stack.length-1];
+					var start = e.lastIndexOf('/');
 
-						if (start >= 0)
-							lineNumber = e.substring(start+1);
+					if (start >= 0) {
+						lineNumber = e.substring(start+1);
 					}
 				}
 			}
