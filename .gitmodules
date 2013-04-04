@@ -1,3 +1,6 @@
 [submodule "ti.smart"]
 	path = ti.smart
 	url = https://github.com/alanleard/ti.smart.git
+[submodule "ti.teamwork"]
+	path = ti.teamwork
+	url = git@github.com:alanleard/ti.teamwork.git
